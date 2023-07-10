@@ -1,0 +1,120 @@
+@media screen and (max-width: 991px){
+    .nav-links{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    .ham-menu{
+        display: block;
+        margin-right: 20px;
+    }
+    .join{
+        display: block;
+
+    }
+    .sign-in{
+        display: block;
+    }
+    .heading{
+        flex-direction: column;
+    }
+    .header-left input,p{
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+    }
+    .or{
+        text-align: center;
+        align-items: center;
+        left: 50%;
+        margin-left: 50%;
+    }
+    .arti{
+        flex-direction: column;
+    }
+    .article2{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+/* second break point */
+@media screen and (max-width:767px) {
+    .ham-menu{
+        display: block;
+    }
+        .peoples{
+            flex-direction: column-reverse;
+        }
+        .people-left{
+            width: 95%;
+        }
+        .connection{
+            flex-direction: column;
+        }
+        .con{
+            margin-top: 60px;
+        }
+        .footer-container{
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+            align-items: center;
+        }
+        .link-column{
+            text-align: center;
+        align-items: center;
+
+        }
+        .subfooter-contaier{
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .connection-left{
+            width: 80%;
+        }
+        .con-but{
+            width: 100%;
+            text-align: center;
+        }
+        .connect-button{
+            width: 100%;
+        }
+        .job-left{
+            width: 50%;
+        }
+        
+}
+
+/* third */
+@media screen and (max-width: 478px){
+    .header-left p{
+        font-size: 40px;
+    }
+    .header-right img{
+            width: 100%;
+    }
+    .main-font{
+        font-size: 55px;
+    }
+    .description{
+        font-size: 20px;
+    }
+    .job{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .job-left {
+        width: 80%;
+    }
+    .job-right{
+        width: 80%;
+        
+    }
+    .job-button{
+        width: 100%;
+        text-align: center;
+    }
+}
